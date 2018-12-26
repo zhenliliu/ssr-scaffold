@@ -1,5 +1,5 @@
 import Controller from './controller'
-export default class Home extends Controller {
+export default class Exmple extends Controller {
     async index(ctx, next) {
         this.render({
             home: {

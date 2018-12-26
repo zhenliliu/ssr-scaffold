@@ -1,70 +1,22 @@
 {
-  "./pages/home": [
+  "./pages/exmple": [
     {
-      "id": "./client/pages/home.js",
-      "name": "./client/pages/home.js",
+      "id": "./client/pages/exmple.js",
+      "name": "./client/pages/exmple.js",
       "file": "js/0.js",
       "publicPath": "/js/0.js"
-    }
-  ],
-  "./pages/mine": [
-    {
-      "id": "./client/pages/mine.js",
-      "name": "./client/pages/mine.js",
-      "file": "js/5.js",
-      "publicPath": "/js/5.js"
-    }
-  ],
-  "./pages/admin/index.js": [
-    {
-      "id": "./client/pages/admin/index.js",
-      "name": "./client/pages/admin/index.js",
-      "file": "js/6.js",
-      "publicPath": "/js/6.js"
-    }
-  ],
-  "./pages/detail/detail.js": [
-    {
-      "id": "./client/pages/detail/detail.js",
-      "name": "./client/pages/detail/detail.js",
-      "file": "js/17.js",
-      "publicPath": "/js/17.js"
-    }
-  ],
-  "./pages/about": [
-    {
-      "id": "./client/pages/about.js",
-      "name": "./client/pages/about.js",
-      "file": "js/18.js",
-      "publicPath": "/js/18.js"
-    }
-  ],
-  "./pages/datePicker": [
-    {
-      "id": "./client/pages/datePicker.js",
-      "name": "./client/pages/datePicker.js",
-      "file": "js/19.js",
-      "publicPath": "/js/19.js"
-    }
-  ],
-  "./pages/swiper": [
-    {
-      "id": "./client/pages/swiper.js",
-      "name": "./client/pages/swiper.js",
-      "file": "js/20.js",
-      "publicPath": "/js/20.js"
     },
     {
-      "id": "./client/pages/swiper.js",
-      "name": "./client/pages/swiper.js",
-      "file": "20.6c862c43456f3ddd1f7b.hot-update.js",
-      "publicPath": "/20.6c862c43456f3ddd1f7b.hot-update.js"
+      "id": "./client/pages/exmple.js",
+      "name": "./client/pages/exmple.js",
+      "file": "0.82540fff6116e35b10e1.hot-update.js",
+      "publicPath": "/0.82540fff6116e35b10e1.hot-update.js"
     }
   ],
-  "./_uid": [
+  "./_shared-key": [
     {
-      "id": "./node_modules/core-js/library/modules/_uid.js",
-      "name": "./node_modules/core-js/library/modules/_uid.js",
+      "id": "./node_modules/core-js/library/modules/_shared-key.js",
+      "name": "./node_modules/core-js/library/modules/_shared-key.js",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }
@@ -857,10 +809,10 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "./default": [
+  "./exmple": [
     {
-      "id": "./client/reducers/default.js",
-      "name": "./client/reducers/default.js",
+      "id": "./client/reducers/exmple.js",
+      "name": "./client/reducers/exmple.js",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }
@@ -1113,10 +1065,10 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "./_shared-key": [
+  "webpack-hot-middleware/client?noInfo=true&reload=true": [
     {
-      "id": "./node_modules/core-js/library/modules/_shared-key.js",
-      "name": "./node_modules/core-js/library/modules/_shared-key.js",
+      "id": "./node_modules/webpack-hot-middleware/client.js?noInfo=true&reload=true",
+      "name": "./node_modules/webpack-hot-middleware/client.js?noInfo=true&reload=true",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }
@@ -1137,10 +1089,10 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "webpack-hot-middleware/client?noInfo=true&reload=true": [
+  "./_uid": [
     {
-      "id": "./node_modules/webpack-hot-middleware/client.js?noInfo=true&reload=true",
-      "name": "./node_modules/webpack-hot-middleware/client.js?noInfo=true&reload=true",
+      "id": "./node_modules/core-js/library/modules/_uid.js",
+      "name": "./node_modules/core-js/library/modules/_uid.js",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }
@@ -2165,62 +2117,6 @@
     {
       "id": "./node_modules/recompose/utils/pick.js",
       "name": "./node_modules/recompose/utils/pick.js",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "./../style/components/loading.less": [
-    {
-      "id": "./client/style/components/loading.less",
-      "name": "./client/style/components/loading.less",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "!!../../../node_modules/css-loader/index.js!../../../node_modules/postcss-loader/src/index.js!../../../node_modules/less-loader/dist/cjs.js??ref--8-3!./loading.less": [
-    {
-      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/components/loading.less",
-      "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/components/loading.less",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "../../node_modules/css-loader/lib/css-base.js": [
-    {
-      "id": "./node_modules/css-loader/lib/css-base.js",
-      "name": "./node_modules/css-loader/lib/css-base.js",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "!../../node_modules/style-loader/lib/addStyles.js": [
-    {
-      "id": "./node_modules/style-loader/lib/addStyles.js",
-      "name": "./node_modules/style-loader/lib/addStyles.js",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "./urls": [
-    {
-      "id": "./node_modules/style-loader/lib/urls.js",
-      "name": "./node_modules/style-loader/lib/urls.js",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "@s/index.less": [
-    {
-      "id": "./client/style/index.less",
-      "name": "./client/style/index.less",
-      "file": "js/index.js",
-      "publicPath": "/js/index.js"
-    }
-  ],
-  "!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/src/index.js!../../node_modules/less-loader/dist/cjs.js??ref--8-3!./index.less": [
-    {
-      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/index.less",
-      "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/index.less",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }
