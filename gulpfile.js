@@ -12,7 +12,6 @@ gulp.task('webpack', function(){
     gulp.src('./client/index.js')
     .pipe(gulpWebpack(webpackConfig,webpack))
     .pipe(gulp.dest('./dist'))
-    .pipe(browserSync.reload({stream: true}))
 })
 
 gulp.task('watch', function(){
