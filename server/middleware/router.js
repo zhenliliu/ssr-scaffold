@@ -45,6 +45,7 @@ export default (app) => {
         }
         if(/^(?!\/(js|css|images|assets)).*\//.test(url)) {
             let routeTarget = routeObj[url]
+            console.log('method',method)
             if(routeTarget && routeTarget.method.toUpperCase() === method) {
                 let { Controller, action } = routeTarget
                 let controller             =  new Controller(app)
@@ -57,7 +58,7 @@ export default (app) => {
                     throw new Error(`Method ${action} is not defined at Controller ${Controller}`)
                 }
             } else{
-                console.warn('路由没有定义,请检查%s下是否包含%s', path.resolve(__dirname,'../routes/index.js'), ` get '${ctx.url}'=> '#index'`)
+                console.warn('路由没有定义,请检查%s下是否包含%s', path.resolve(__dirname,'../routes/index.js'), `'${ctx.url}': ["${method.toLowerCase()}","${routeTarget.Controller.name.toLowerCase()}", "${routeTarget.action}"]`)
             }
         }
         await next()

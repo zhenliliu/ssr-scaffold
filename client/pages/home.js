@@ -3,12 +3,12 @@ import { bindActionCreators } from 'redux'
 import { connect }            from 'react-redux'
 import { Button }             from 'antd';
 import actions                from '@a'
-import "@s/exmple.less"
+import "@s/home.less"
 @connect(state => state, dispatch => bindActionCreators({
     ...actions.get,
-    ...actions.exmple
+    ...actions.home
 },dispatch))
-export default class Exmple extends Component {
+export default class Home extends Component {
     constructor(props) {
         super()
         this.state = {

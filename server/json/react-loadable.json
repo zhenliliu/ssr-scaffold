@@ -229,18 +229,18 @@
       "publicPath": "/js/0.js"
     }
   ],
-  "./exmpleAction": [
-    {
-      "id": "./client/actions/exmpleAction.js",
-      "name": "./client/actions/exmpleAction.js",
-      "file": "js/1.js",
-      "publicPath": "/js/1.js"
-    }
-  ],
   "./get": [
     {
       "id": "./client/actions/get.js",
       "name": "./client/actions/get.js",
+      "file": "js/1.js",
+      "publicPath": "/js/1.js"
+    }
+  ],
+  "./homeAction": [
+    {
+      "id": "./client/actions/homeAction.js",
+      "name": "./client/actions/homeAction.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
     }
@@ -253,26 +253,26 @@
       "publicPath": "/js/1.js"
     }
   ],
-  "./pages/exmple": [
+  "./pages/home": [
     {
-      "id": "./client/pages/exmple.js",
-      "name": "./client/pages/exmple.js",
+      "id": "./client/pages/home.js",
+      "name": "./client/pages/home.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
     }
   ],
-  "@s/exmple.less": [
+  "@s/home.less": [
     {
-      "id": "./client/style/exmple.less",
-      "name": "./client/style/exmple.less",
+      "id": "./client/style/home.less",
+      "name": "./client/style/home.less",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
     }
   ],
-  "!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/src/index.js!../../node_modules/less-loader/dist/cjs.js??ref--8-3!./exmple.less": [
+  "!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/src/index.js!../../node_modules/less-loader/dist/cjs.js??ref--8-3!./home.less": [
     {
-      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/exmple.less",
-      "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/exmple.less",
+      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/home.less",
+      "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/home.less",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
     }
@@ -1073,10 +1073,10 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "./exmple": [
+  "./home": [
     {
-      "id": "./client/reducers/exmple.js",
-      "name": "./client/reducers/exmple.js",
+      "id": "./client/reducers/home.js",
+      "name": "./client/reducers/home.js",
       "file": "js/index.js",
       "publicPath": "/js/index.js"
     }

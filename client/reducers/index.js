@@ -1,5 +1,5 @@
-import exmple     from './exmple'
+import home     from './home'
 import { combineReducers } from 'redux'
 export default combineReducers({
-    exmple,
+    home,
 })

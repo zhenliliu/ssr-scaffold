@@ -3,14 +3,14 @@ import Loadable     from 'react-loadable'
 import { Route }    from 'react-router-dom'
 import loading      from './components/loading'
 
-const Exmple = Loadable({
+const Home = Loadable({
     loading,
-    loader: () => import('./pages/exmple')
+    loader: () => import('./pages/home')
 })
 let route = (
     <div>
-        <Route exact path="/" component={Exmple}/>
-        <Route path="/home" component={Exmple}/>
+        <Route exact path="/" component={Home}/>
+        <Route path="/home" component={Home}/>
     </div>
 ) 
 export default () => {
