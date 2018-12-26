@@ -235,12 +235,6 @@
       "name": "./client/actions/exmpleAction.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./client/actions/exmpleAction.js",
-      "name": "./client/actions/exmpleAction.js",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "./get": [
@@ -249,12 +243,6 @@
       "name": "./client/actions/get.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./client/actions/get.js",
-      "name": "./client/actions/get.js",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "@a": [
@@ -263,12 +251,6 @@
       "name": "./client/actions/index.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./client/actions/index.js",
-      "name": "./client/actions/index.js",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "./pages/exmple": [
@@ -277,12 +259,6 @@
       "name": "./client/pages/exmple.js",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./client/pages/exmple.js",
-      "name": "./client/pages/exmple.js",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "@s/exmple.less": [
@@ -291,12 +267,6 @@
       "name": "./client/style/exmple.less",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./client/style/exmple.less",
-      "name": "./client/style/exmple.less",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/src/index.js!../../node_modules/less-loader/dist/cjs.js??ref--8-3!./exmple.less": [
@@ -305,12 +275,6 @@
       "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/exmple.less",
       "file": "js/1.js",
       "publicPath": "/js/1.js"
-    },
-    {
-      "id": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/exmple.less",
-      "name": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js?!./client/style/exmple.less",
-      "file": "1.37e300f98e0b8dbc38c4.hot-update.js",
-      "publicPath": "/1.37e300f98e0b8dbc38c4.hot-update.js"
     }
   ],
   "./_uid": [
@@ -1101,7 +1065,7 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "./../reducers": [
+  "../reducers/index": [
     {
       "id": "./client/reducers/index.js",
       "name": "./client/reducers/index.js",
@@ -1165,7 +1129,7 @@
       "publicPath": "/js/index.js"
     }
   ],
-  "../modules/_core": [
+  "../../modules/_core": [
     {
       "id": "./node_modules/core-js/library/modules/_core.js",
       "name": "./node_modules/core-js/library/modules/_core.js",

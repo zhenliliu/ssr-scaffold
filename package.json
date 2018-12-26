@@ -1,5 +1,5 @@
 {
-  "name": ${projectName},
+  "name": "${projectName}",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -67,6 +67,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
+    "browser-sync": "^2.26.3",
+    "chalk": "^2.4.1",
     "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
     "del": "^3.0.0",
