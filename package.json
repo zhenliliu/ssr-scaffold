@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@alifd/next": "^1.11.5",
     "@icedesign/base": "^0.2.5",
     "@icedesign/container": "^0.1.8",
     "@icedesign/form-binder": "^1.0.3",
