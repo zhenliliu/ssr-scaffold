@@ -57,7 +57,11 @@ export default (app) => {
                     throw new Error(`Method ${action} is not defined at Controller ${Controller}`)
                 }
             } else{
-                console.warn('路由没有定义,请检查%s下是否包含%s', path.resolve(__dirname,'../routes/index.js'), `'${ctx.url}': ["${method.toLowerCase()}","${routeTarget.Controller.name.toLowerCase()}", "${routeTarget.action}"]`)
+                if(routeTarget) {
+                    console.warn('路由没有定义,请检查%s下是否包含%s', path.resolve(__dirname,'../routes/index.js'), `'${ctx.url}': ["${method.toLowerCase()}","${routeTarget.Controller.name.toLowerCase()}", "${routeTarget.action}"]`)
+                }else{
+                    console.warn(`路由${ctx.request.url}未定义`)
+                }
             }
         }
         await next()
