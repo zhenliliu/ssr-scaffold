@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BounceLoader         from 'react-spinners/BounceLoader';
-import '@s/components/loading.less'
+import '../style/components/loading.less'
 export default class Loading extends Component {
     render() {
         return (
