@@ -45,7 +45,6 @@ export default (app) => {
         }
         if(/^(?!\/(js|css|images|assets)).*\//.test(url)) {
             let routeTarget = routeObj[url]
-            console.log('method',method)
             if(routeTarget && routeTarget.method.toUpperCase() === method) {
                 let { Controller, action } = routeTarget
                 let controller             =  new Controller(app)

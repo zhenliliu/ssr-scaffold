@@ -28,7 +28,8 @@ if version_gt  $MIN_NODE_VERSION ${current:1}; then
 fi
 if [ ! -d "node_modules" ]; then
   echo "正在安装 npm ⌛️ ..."
-  npm install
+  npm install 
+  echo "安装完成 ✔"
 fi
 killall node nodemon gulp
 pm2 kill

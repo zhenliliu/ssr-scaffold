@@ -28,9 +28,11 @@ export default (app) => {
 		}));
 		app.use(webpackHotMiddleware(compiler));
 	}
-	app.use(cacheControl({
-		maxAge: 12 * 3600
-	}))
+	if(process.env.NODE_ENV === 'production') {
+		app.use(cacheControl({
+			maxAge: 12 * 3600
+		}))
+	}
 	app.use(statics(path.join(__dirname, "../../dist")));
 	app.use(router(app))
 	

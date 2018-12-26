@@ -31,6 +31,7 @@ gulp.task('clean:js', function() {
     './dist/*.json'
   ])
 })
+
 gulp.task('nodemon', function() {
     return nodemon({
         script: 'index.js',
