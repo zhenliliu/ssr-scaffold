@@ -1,6 +1,6 @@
-import * as home from './homeAction'
+import * as exmple from './exmpleAction'
 import * as get from './get'
 export default {
-    home,
+    exmple,
     get
 }

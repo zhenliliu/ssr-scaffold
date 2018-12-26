@@ -13,13 +13,6 @@
 		"transform-runtime",
 		"transform-class-properties",
 		"react-loadable/babel",
-		["import", 
-			[
-				{ "libraryName": "antd-mobile", "libraryDirectory": "lib","style": true },
-				{ "libraryName": "antd", "libraryDirectory": "lib","style": true },
-				{ "libraryName": "@icedesign/base","libraryDirectory": "lib","style": true},
-				{ "libraryName": "@alifd/next","libraryDirectory": "lib","style": true}
-			]
-		]
+		["import", { "libraryName": "antd", "libraryDirectory": "lib","style": true }]
 	]
 }
