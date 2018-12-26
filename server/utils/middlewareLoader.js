@@ -23,7 +23,7 @@ export default (app) => {
 	app.use(bodyParser())
 	if(process.env.NODE_ENV === 'development') {
 		app.use(webpackDevMiddleware(compiler, {
-			noInfo: true,
+			noInfo: false,
 			publicPath: webpackConfig.output.publicPath
 		}));
 		app.use(webpackHotMiddleware(compiler));
