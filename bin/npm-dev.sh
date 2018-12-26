@@ -26,6 +26,9 @@ if version_gt  $MIN_NODE_VERSION ${current:1}; then
     nvm use $MIN_NODE_VERSION
   fi
 fi
+if [ ! -d "node_modules" ]; then
+  npm install
+fi
 killall node nodemon gulp
 pm2 kill
 gulp
