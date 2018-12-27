@@ -8,7 +8,7 @@
 
 
 #### 安装教程
-git clone https://gitee.com/charlesliu_it/lzlblog.git
+git clone https://github.com/zhenliliu/ssr-scaffold
 
 npm install 
 
